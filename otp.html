@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP Generator</title>
+    <link rel="stylesheet" href="otp.css">
+</head>
+<body>
+    <div class="otp-container">
+        <h2>OTP Generator</h2>
+        <form id="otp-form">
+            <div>
+                <p>Enter phone number for OTP</p>
+                <input type="text" id="phone-number" placeholder="Enter phone number" required>
+                <button type="button" onclick="sendOtp()">Send OTP</button>
+            </div>
+            <div>
+                <p>Enter the otp sent to your Mobile.</p>
+                <input type="text" id="otp-input" placeholder="Enter OTP" maxlength="4" required>
+                <button type="button" onclick="verifyOtp()">Verify OTP</button>
+            </div>
+            <p id="message"></p>
+        </form>
+    </div>
+    <script src="otp.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background:linear-gradient(rgb(122, 113, 215) , rgb(208, 122, 223));
+    margin: 0;
+}
+
+.otp-container {
+    background:rgb(92, 199, 235);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(18, 18, 18, 0.5);
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    font-size: 18px;
+    margin: 10px 0;
+    width: calc(100% - 22px);
+    border-radius: 2px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.otp-container #otp-form p{
+    font-size: 21px;
+}
+
+button:hover {
+    background-color: #0056b3;
+    color: black;
+    font-weight: 600;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 16px;
+}
